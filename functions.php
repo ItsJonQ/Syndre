@@ -67,6 +67,9 @@
 		wp_enqueue_script( 'site' );
 
 		wp_register_style( 'screen', get_stylesheet_directory_uri().'/style.css', '', '', 'screen' );
+		wp_register_style( 'reset', get_stylesheet_directory_uri().'/css/reset.css', '', '', 'screen' );
+		
+		wp_enqueue_style( 'reset' );
         wp_enqueue_style( 'screen' );
 	}	
 
